@@ -20,18 +20,18 @@
     <hashTree>
       <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer" enabled="true">
         <collectionProp name="load_profile">
-          <collectionProp name="1873288210">
+          <collectionProp name="1362808368">
             <stringProp name="49">1</stringProp>
-            <stringProp name="1567">10</stringProp>
+            <stringProp name="48625">100</stringProp>
             <stringProp name="1567">10</stringProp>
           </collectionProp>
-          <collectionProp name="1542706273">
-            <stringProp name="1567">10</stringProp>
-            <stringProp name="1567">10</stringProp>
+          <collectionProp name="-1907746783">
+            <stringProp name="48625">100</stringProp>
+            <stringProp name="48625">100</stringProp>
             <stringProp name="48873">180</stringProp>
           </collectionProp>
-          <collectionProp name="-1974899756">
-            <stringProp name="1567">10</stringProp>
+          <collectionProp name="-619905674">
+            <stringProp name="48625">100</stringProp>
             <stringProp name="48">0</stringProp>
             <stringProp name="1567">10</stringProp>
           </collectionProp>
@@ -263,8 +263,8 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="1780288531">
-            <stringProp name="1567">10</stringProp>
+          <collectionProp name="-526606109">
+            <stringProp name="48625">100</stringProp>
             <stringProp name="48">0</stringProp>
             <stringProp name="1567">10</stringProp>
             <stringProp name="48873">180</stringProp>
@@ -308,7 +308,7 @@
         </ResponseAssertion>
         <hashTree/>
         <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Asserção de Duração" enabled="true">
-          <stringProp name="DurationAssertion.duration">100</stringProp>
+          <stringProp name="DurationAssertion.duration">1000</stringProp>
           <stringProp name="Assertion.scope">all</stringProp>
         </DurationAssertion>
         <hashTree/>
