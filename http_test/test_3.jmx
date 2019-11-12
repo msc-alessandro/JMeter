@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.1.1 r1855137">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="NGINX" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -251,7 +251,7 @@
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Variáveis Definidas Pelo Usuário" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
-        <stringProp name="HTTPSampler.domain">10.244.1.2</stringProp>
+        <stringProp name="HTTPSampler.domain">192.168.25.2</stringProp>
         <stringProp name="HTTPSampler.port">80</stringProp>
         <stringProp name="HTTPSampler.protocol">http</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -263,8 +263,8 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-526606109">
-            <stringProp name="48625">100</stringProp>
+          <collectionProp name="1780288531">
+            <stringProp name="1567">10</stringProp>
             <stringProp name="48">0</stringProp>
             <stringProp name="1567">10</stringProp>
             <stringProp name="48873">180</stringProp>
@@ -308,7 +308,7 @@
         </ResponseAssertion>
         <hashTree/>
         <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Asserção de Duração" enabled="true">
-          <stringProp name="DurationAssertion.duration">1000</stringProp>
+          <stringProp name="DurationAssertion.duration">100</stringProp>
           <stringProp name="Assertion.scope">all</stringProp>
         </DurationAssertion>
         <hashTree/>

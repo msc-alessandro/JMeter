@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.1.1 r1855137">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="NGINX" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -20,18 +20,18 @@
     <hashTree>
       <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer" enabled="true">
         <collectionProp name="load_profile">
-          <collectionProp name="83295808">
+          <collectionProp name="1873288210">
             <stringProp name="49">1</stringProp>
-            <stringProp name="48625">100</stringProp>
+            <stringProp name="1567">10</stringProp>
             <stringProp name="1567">10</stringProp>
           </collectionProp>
-          <collectionProp name="1888975457">
-            <stringProp name="48625">100</stringProp>
-            <stringProp name="48625">100</stringProp>
+          <collectionProp name="1542706273">
+            <stringProp name="1567">10</stringProp>
+            <stringProp name="1567">10</stringProp>
             <stringProp name="48873">180</stringProp>
           </collectionProp>
-          <collectionProp name="102744321">
-            <stringProp name="48625">100</stringProp>
+          <collectionProp name="-1974899756">
+            <stringProp name="1567">10</stringProp>
             <stringProp name="48">0</stringProp>
             <stringProp name="1567">10</stringProp>
           </collectionProp>
@@ -251,7 +251,7 @@
         <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Variáveis Definidas Pelo Usuário" enabled="true">
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
-        <stringProp name="HTTPSampler.domain">10.244.1.2</stringProp>
+        <stringProp name="HTTPSampler.domain">192.168.25.2</stringProp>
         <stringProp name="HTTPSampler.port">80</stringProp>
         <stringProp name="HTTPSampler.protocol">http</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -263,8 +263,8 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-1035984367">
-            <stringProp name="1567">10</stringProp>
+          <collectionProp name="1857078051">
+            <stringProp name="49">1</stringProp>
             <stringProp name="48">0</stringProp>
             <stringProp name="1567">10</stringProp>
             <stringProp name="48873">180</stringProp>
